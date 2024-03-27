@@ -1,0 +1,13 @@
+# 1 fichier complet à ne pas versionner
+# .vscode/settings.json
+# 1 masque             //
+# .vscode/*.json
+# 1 masque dans les sous dossiers
+# .vscode/**/*.json
+# 1 dossier et son contenu (règle absolue)
+# .vscode/
+# ingorer dans tout le dossier racine et sous dossier
+# utilisation partielle des regex
+[Ss]ettings.json
+# exception liée à une règle précitées
+!.vscode/*.json

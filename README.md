@@ -1,7 +1,7 @@
 # FORMATION GIT
 
 
-## intro
+## introduction
 
 * [voir ici](./intro.md)
 
@@ -9,7 +9,7 @@
 
 * [voir ici](./repo.md)
 
-## création de commits
+## création de commits (base et avancé)
 
 * [voir ici](./commit.md)
 
