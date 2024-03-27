@@ -20,6 +20,7 @@
 
 2. `git add <paths> | . | -A | -i:` ajout à l'index
   - -i interactif si trop de fichiers à ajouter à la main
+  - -p: pour ajouter des "hunks" i.e des modification atomiques dans le fichier
 
 3. `git commit [-a] [-m "msg"]`: valider les modifs comme commit
   - -a ajout auto des fichiers à l'état M
