@@ -12,3 +12,4 @@
 # exception liée à une règle précitées
 !.vscode/*.json
 dist/
+.vagrant/
