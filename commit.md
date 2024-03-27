@@ -35,3 +35,7 @@
   git config --global alias.ci commit
   git config --global alias.co checkout
   ```
+  
+## commandes bas niveau pour introspecter les objets git
+
+ * dans `.git/objetcs`
