@@ -11,4 +11,4 @@
 [Ss]ettings.json
 # exception liée à une règle précitées
 !.vscode/*.json
-# dist/
+dist/
