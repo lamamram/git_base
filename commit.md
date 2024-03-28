@@ -38,4 +38,6 @@
   
 ## commandes bas niveau pour introspecter les objets git
 
- * dans `.git/objetcs`
+ * dans `.git/objects`
+ * les objets git sont disposés dans des dossiers commmençant par les 2 premiers caractères hexa
+ * l'objet **commit** liste les méta-données, un objet **tree**
