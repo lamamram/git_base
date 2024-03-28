@@ -1,0 +1,11 @@
+image: alpine:latest
+
+stages:
+  - build
+
+build:
+  tags:
+    - myusine
+  stage: build
+  script:
+    - echo "BUILD !!!"
