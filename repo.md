@@ -7,3 +7,5 @@
 
 * `git config [--local|--global]:` ajout des meta utilisateurs ou config de base
 * `git config --global core.editor notepad`
+
+* `git config --global alias.st status`: pour fabriquer un raccourcis **git st**
