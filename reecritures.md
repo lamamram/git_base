@@ -7,3 +7,7 @@
   => on peut corriger ces pbs de cohérence avec commit --amend 
 
 * sachant qu'un commit demande un message on peut ajouter l'option --no-edit si le message précédent est statisfaisant
+
+## squash
+
+* condenser plusieurs en un seul commit parce qu'ils constituent une évolution cohérente
