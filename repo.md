@@ -9,3 +9,9 @@
 * `git config --global core.editor notepad`
 
 * `git config --global alias.st status`: pour fabriquer un raccourcis **git st**
+
+## les commandes d'introspection
+
+### les git diff
+
+* `git diff`: index -> copie de travail
