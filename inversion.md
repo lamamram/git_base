@@ -34,7 +34,9 @@
 6. `git revert <rev> | HEAD~n`: crée un nouveau commit qui inverse les modifications du commit pointé
   - --no-edit pour laisser un message auto pour le nouveau commit
   - --no-commit se contente d'inverser les modifs dans la copie, charge au dev de terminer avec de possible modifs supplémentaire + commit
-  - annuler un commit de fusion : `git revert <rev> | HEAD~n -m 1`: recrée l'état avant le commit de fusion, du point de vue de la branche de réception (ligne n° 1)
+  - annuler un commit de fusion : `git revert <rev> | HEAD~n -m 1`: recrée l'état avant le commit de fusion, du point de vue de la branche de réception (ligne n° 1).
+    REM: à partir du revert le merge est considéré comme consommé donc il faut reverter le revert
+    REM2: on en revertant le revert on voit le message "Reaplly: commit"
 
   * REM: 
     + reset est un verbe intransitif en "git" donc on reset VERS un commit
