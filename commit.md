@@ -41,3 +41,4 @@
  * dans `.git/objects`
  * les objets git sont disposés dans des dossiers commmençant par les 2 premiers caractères hexa
  * l'objet **commit** liste les méta-données, un objet **tree**
+ * l'objet **tree** liste les **blobs** (contenus des fichiers) les plus frais du dépôts
