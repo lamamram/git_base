@@ -10,6 +10,15 @@
 
 * `git config --global alias.st status`: pour fabriquer un raccourcis **git st**
 
+## les commandes d'introspection
+
+### les git diff
+
+* `git diff`: index -> copie de travail
+* `git diff --cached`: HEAD -> index
+* `git diff <rev>`: commit -> copie de travail
+* `git diff <rev1> <rev2>`: entre commits
+
 
 ## utilisation du stash:
 
