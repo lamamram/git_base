@@ -35,3 +35,9 @@
   - --no-edit pour laisser un message auto pour le nouveau commit
   - --no-commit se contente d'inverser les modifs dans la copie, charge au dev de terminer avec de possible modifs supplémentaire + commit
   - annuler un commit de fusion : `git revert <rev> | HEAD~n -m 1`: recrée l'état avant le commit de fusion, du point de vue de la branche de réception (ligne n° 1)
+
+  * REM: 
+    + reset est un verbe intransitif en "git" donc on reset VERS un commit
+      Donc: tous les commits précédents sont supprimés de l'historique.
+    + revert      //     transitif      //    donc on revert le commit et lui seul
+      Donc: si les modifications inversées étaient les fondements d'autres modifications dans d'autres commit plus récents => nous verrons des conflits !!!
