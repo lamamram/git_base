@@ -15,3 +15,6 @@
 ### les git diff
 
 * `git diff`: index -> copie de travail
+* `git diff --cached`: HEAD -> index
+* `git diff <rev>`: commit -> copie de travail
+* `git diff <rev1> <rev2>`: entre commits
