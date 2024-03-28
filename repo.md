@@ -29,3 +29,11 @@
      => on doit réparer également les données : `gco -- <fic>`
    * on peut stasher avec un nom indiquant la branche : `git stash push -m "name_of_the_stash"`
      => on peut uniquement l'utilser qu'avec `git stash apply`
+
+## git tag
+  1. création (annoté)
+  2. voir git show
+  3. pousser
+  4. mettre à jour
+  5. supprimer
+  6. archiver
